@@ -1,0 +1,43 @@
+.links{
+    border: 1px solid white; 
+    padding: 5px;
+    margin: 5px;
+    text-align: center; 
+    background-color: lightcoral; 
+    width: auto;
+    cursor: pointer;
+}
+.links a{
+    display: inline-block; 
+    margin: 3px 0px;
+    border-top: 1px solid lightpink; 
+    border-left: 1px lightpink;
+    border-right: 1px solid firebrick; 
+    border-bottom: 1px solid firebrick; 
+    padding: 4px 10px;
+    text-align: center; 
+    background-color: lightcoral;
+    color: white; 
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.links a:link{
+    color: white;
+}
+.links a:visited{
+    color: white;
+}
+.links a:hover{
+    display: inline-block; 
+    margin: 3px 0px;
+    border-top: 1px solid firebrick; 
+    border-left: 1px solid firebrick;
+    border-bottom: 1px solid lightpink; 
+    border-right: 1px solid lightpink; 
+    padding: 5px 9px 3px 11px;
+    text-align: center; 
+    background-color: lightcoral; 
+    color: white; 
+    text-decoration: none;
+    font-family: sans-serif;
+}
